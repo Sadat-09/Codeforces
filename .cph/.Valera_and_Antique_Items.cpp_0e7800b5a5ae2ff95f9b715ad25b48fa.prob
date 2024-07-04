@@ -1,0 +1,1 @@
+{"name":"Local: Valera_and_Antique_Items","url":"f:\\Codeforces\\Valera_and_Antique_Items.cpp","tests":[{"id":1708889184782,"input":"3 50000\n1 40000\n2 20000 60000\n3 10000 70000 190000","output":"3\n1 2 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Codeforces\\Valera_and_Antique_Items.cpp","group":"local","local":true}
