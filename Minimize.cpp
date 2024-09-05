@@ -35,27 +35,11 @@ bool check_prime(int n) {
 
 void solve()
 {
-    int n,k;
-    cin>>n>>k;
-    int arr[k];
-    for (int i = 0; i < k; i++)
-    {
-        /* code */
-        cin>>arr[i];
-    }
-    sort(arr,arr+k);
-    
-    
-
-    int sum=0;
-    for (int i = 0; i < k-1; i++)
-    {
-      /* code */
-      if(arr[i]==1) sum++;
-      else sum+=arr[i]*2-1;
-    }
-    
-  cout<<sum<<endl;
+      int a, b;
+        cin >> a >> b;
+        
+       
+        cout << b - a << endl;
     
 }
 
