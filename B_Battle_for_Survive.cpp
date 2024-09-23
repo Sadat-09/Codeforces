@@ -33,22 +33,19 @@ bool check_prime(int n) {
 }
 
 void solve() {
-    int n;
+    ll n;
     cin >> n;
     vector<ll> a(n);
-    for (int i = 0; i < n; ++i) {
+    ll sum=0;
+    for (ll i = 0; i < n; ++i) {
         cin >> a[i];
+        sum+=a[i];
     }
-    sort(a.begin(), a.end());
-    ll max_rating = a[n-1];
-    for (int i = 0; i < n-1; ++i) {
-        max_rating -= a[i];
-    }
-    cout << max_rating << endl;
+    cout<<sum-2*a[n-2]<<endl;
+    
 }
 
-
-int main()
+int  main()
 {
     IO;
     //solve();
