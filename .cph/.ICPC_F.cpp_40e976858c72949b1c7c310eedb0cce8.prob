@@ -1,0 +1,1 @@
+{"name":"Local: ICPC_F","url":"f:\\Codeforces\\ICPC_F.cpp","tests":[{"id":1731145444683,"input":"2\n57 13 60\n103 17 110","output":"32/1\n1176/23"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Codeforces\\ICPC_F.cpp","group":"local","local":true}
