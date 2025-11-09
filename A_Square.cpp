@@ -39,19 +39,19 @@ bool check_prime(int n)
 void solve()
 {
 
-    int x[4], y[4];
-
-    for (int i = 0; i < 4; ++i)
-    {
-        cin >> x[i] >> y[i];
+   int a,b,c,d;
+   cin>>a>>b>>c>>d;
+   set<int> s;
+    s.insert(a);
+    s.insert(b);
+    s.insert(c);
+    s.insert(d);
+    if(s.size()==1){
+        cout<<"YES"<<endl;
     }
-
-    sort(x, x + 4);
-    sort(y, y + 4);
-
-    int side = max(x[2] - x[1], y[2] - y[1]);
-
-    cout << 1LL * side * side << endl;
+    else{
+        cout<<"NO"<<endl;
+    }
 }
 
 int main()
